@@ -1,0 +1,51 @@
+﻿@model TbCheckoutTourUser 
+    <div class="row">
+   
+    <div class="col-md-6  text-left" style="font-size:medium">
+              <h3 > CheckoutTourUser</h3>
+        <div class="card">
+            <div class="card-body">
+
+               
+                <form class="forms-sample" asp-action="Create" asp-controller="CheckoutTourUsers" enctype="multipart/form-data" method="post">
+                    
+                    
+                    <input asp-for="TourId" type="hidden" class="form-control" id="exampleInputUsername1" placeholder="Name CheckoutTourUser">
+
+                    <div class="form-group">
+                        <label for="exampleInputUsername1">Name CheckoutTourUser</label>
+                        <input asp-for="Name" type="text" class="form-control" id="exampleInputUsername1" placeholder="Name CheckoutTourUser">
+                        <span asp-validation-for="Name"> </span>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputUsername1">jop</label>
+                        <input asp-for="jop" type="text" class="form-control" id="exampleInputUsername1" placeholder="jop">
+                        <span asp-validation-for="jop"> </span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleInputUsername1">Age</label>
+                        <input type="number" asp-for="Age" class="form-control" placeholder="Age">
+                        <span asp-validation-for="Age"> </span>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputUsername1">Phone</label>
+                        <input asp-for="Phone" type="text" class="form-control" id="exampleInputMobile" placeholder="Mobile number">
+                        <span asp-validation-for="Phone"> </span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleInputUsername1">Email</label>
+                        <input asp-for="Email" type="email" class="form-control" id="exampleInputUsername1" placeholder="Email">
+                        <span asp-validation-for="Email"> </span>
+                    </div>
+                    <button type="submit" class="btn btn-gradient-primary me-2">Submit</button>
+
+                </form>
+            </div>
+        </div>
+    </div> 
+    </div>
+
+ 

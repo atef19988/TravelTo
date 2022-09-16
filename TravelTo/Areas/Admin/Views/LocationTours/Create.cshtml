@@ -1,0 +1,27 @@
+﻿@model TbLocationTour
+<div class="col-md-6 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+   
+            <p class="card-description"> Location Tour Create Form </p>
+            <form class="forms-sample" asp-action="Create" asp-controller="LocationTours" enctype="multipart/form-data" method="post">
+              
+                 
+                <div class="form-group">
+                    <label for="exampleInputUsername1">Location Tour Description</label>
+                    <input type="text" asp-for="NameLocation" class="form-control" placeholder="Location Tour Description"></input>
+                    <span asp-validation-for="NameLocation"> </span>
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleInputEmail1"> Image Location Tour</label>
+                    <input name="files" type="file" class="form-control" placeholder="File">
+                </div>
+               
+
+                <button type="submit" class="btn btn-gradient-primary me-2">Submit</button>
+       
+            </form>
+        </div>
+    </div>
+</div>

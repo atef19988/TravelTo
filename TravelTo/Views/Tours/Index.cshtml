@@ -1,0 +1,53 @@
+﻿
+@model List<TbTour>
+
+ 
+
+
+        
+        <!-- Hot tours-->
+        <section class="section section-sm bg-default">
+            <div class="container">
+                <h3 class="oh-desktop"><span class="d-inline-block wow slideInDown">Chosse Your Tour</span></h3>
+                <div class="row row-sm row-40 row-md-50">
+                   
+            @foreach (var item in Model)
+            {
+                     <div class="col-sm-6 col-md-6 wow fadeInRight  ">
+                        <!-- Product Big-->
+                        <article class="product-big">
+                            <div class="unit flex-column flex-md-row align-items-md-stretch">
+                            <div class="unit-left"><a class="product-big-figure" asp-action="Details" asp-controller="Tours" asp-route-id="@item.Id"><img src="~/Admin/Uploads/@item.ImageName" alt="" width="600" height="366" /></a></div>
+                                <div class="unit-body">
+                                    <div class="product-big-body">
+                                    <h5 class="product-big-title"><a >@item.TourName</a></h5>
+                                        <div class="group-sm group-middle justify-content-start">
+                                            <div class="product-big-rating"><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star_half"></span></div>
+                                        </div>
+                                    <p class="product-big-text">@item.TourDescription...</p><a class="button button-black-outline button-ujarak" asp-action="Details" asp-controller="Tours" asp-route-id="@item.Id">Buy This Tour</a>
+ 
+                                    <div style="width:130px; font-size:12px;height:100px " class="product-big-price-wrap"> <p style="text-decoration:line-through">Discount @item.Discount</p>  <span class="product-big-price"> price $@(item.Price - item.Discount)</span></div>
+                                </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div> 
+            }
+                  
+                </div>
+            </div>
+        </section>
+     
+        <!-- Section Subscribe-->
+        <section class="section bg-default text-center offset-top-50">
+            <div class="parallax-container" data-parallax-img="images/parallax-1-1920x850.jpg">
+                <div class="parallax-content section-xl section-inset-custom-1 context-dark bg-overlay-2-21">
+                    <div class="container">
+                        <h2 class="heading-2 oh font-weight-normal wow slideInDown"><span class="d-block font-weight-semi-bold">First-class Impressions</span><span class="d-block font-weight-light">are Waiting for You!</span></h2>
+                        <p class="text-width-medium text-spacing-75 wow fadeInLeft" data-wow-delay=".1s">Our agency offers travelers various tours and excursions with destinations all over the world. Browse our website to find your dream tour!</p><a class="button button-secondary button-pipaluk" asp-action="Index" asp-controller="Tours">Book a Tour Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+      
+

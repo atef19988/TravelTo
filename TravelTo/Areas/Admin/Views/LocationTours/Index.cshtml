@@ -1,0 +1,75 @@
+﻿
+@model List<TbLocationTour>
+@section Style 
+{
+      <!-- Plugin css for this page -->
+    <link rel="stylesheet" href="~/Admin/vendors/datatables.net-bs4/dataTables.bootstrap4.css">
+    <!-- End plugin css for this page -->
+}
+
+
+    <div class="card">
+        <div class="card-body">
+
+            <a class="btn btn-light" asp-action="Create" asp-controller="LocationTours"> Create </a>
+            <hr/>
+
+            <h4 class="card-title"> List Of Location Tours  </h4>
+
+            <div class="row">
+                <div class="col-12">
+                    <div id="order-listing_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer">
+                            <div class="col-sm-12">
+                                <table id="order-listing" class="table dataTable no-footer" aria-describedby="order-listing_info">
+                                    <thead>
+
+
+                                         <tr> 
+                                             <th>Image </th>
+                                           <th>Name Location </th>                                        
+                                          <th> Action </th>
+
+                                         </tr> 
+                                     </thead>
+                                    <tbody>  
+                                        @foreach (var item in Model)
+                                        { 
+                                        <tr class="odd">
+                                        <td><img src="~/Admin/Uploads/@item.ImageName"/> </td>
+
+
+                                        <td>@item.NameLocation</td>
+                                        <td class="">   <a class="btn btn-primary" asp-action="Edit" asp-controller="Location Tours" asp-route-id="@item.Id">Edit </a>   <a  asp-action="Delete" asp-controller="Location Tours" asp-route-id="@item.Id" class="btn btn-danger ">Delete </a></td> 
+                                        </tr>
+                                        }
+                                       
+
+                                     
+                                    </tbody>
+                                </table>
+                            </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+@section Script{
+            <!-- Plugin js for this page -->
+        <script src="~/Admin/vendors/datatables.net/jquery.dataTables.js"></script>
+        <script src="~/Admin/vendors/datatables.net-bs4/dataTables.bootstrap4.js"></script>
+        <!-- End plugin js for this page -->
+            <!-- Custom js for this page -->
+    <script src="~/Admin/js/data-table.js"></script>
+    <!-- End custom js for this page -->
+}

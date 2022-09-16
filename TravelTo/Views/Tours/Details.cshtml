@@ -1,0 +1,42 @@
+﻿@model TbTour 
+<div class="row">
+   
+    <div class="col-md-6"style=" ">
+
+        <div class="img-thumbnail owl-item active" style=" margin: 30px;" >
+            <article class="thumbnail thumbnail-mary">
+                <div class="thumbnail-mary-figure">
+                    <img  src="~/Admin/Uploads/@Model.ImageName" alt="" width="270" height="195">
+                </div>
+                <div class="thumbnail-mary-caption">
+                    <a class="icon fl-bigmug-line-zoom60" href="~/Admin/Uploads/@Model.ImageName" data-lightgallery="item"><img src="/Admin/Uploads/bf4db986-769f-4462-a089-8ca7ea96943e.jpg" alt="" width="270" height="195"></a>
+                </div>
+            </article>
+        </div>
+</div>    
+<div class="col-md-6 text-left">
+        
+    <div class="row">
+            <div class ="col-md-6 ">
+                <h3>@Model.TourName</h3>
+          </div>
+       
+
+          <div class ="col-md-6 ">
+            <div class=" product-big-price-wrap">
+                <p>Discount @Model.Discount</p>
+
+
+                <span class="product-big-price"> price $@(Model.Price - Model.Discount)</span>
+
+            </div>
+            </div> 
+        </div> 
+        <p> @Model.TourDescription</p>
+
+        <div class="row">
+            <a b-lw0aavegri="" class="button button-lg button-primary button-ujarak" asp-action="Create" asp-controller="CheckoutTourUsers" asp-route-id="@Model.Id">Check Out</a>
+        </div>  
+    </div>
+
+</div>
