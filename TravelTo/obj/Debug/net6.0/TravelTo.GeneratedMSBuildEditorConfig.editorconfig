@@ -8,157 +8,157 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TravelTo
 build_property.RootNamespace = TravelTo
-build_property.ProjectDir = A:\.Net Dev Course Brova\Asp\TravelTo\
+build_property.ProjectDir = A:\.Net Dev Course Brova\Asp\TravelTo\TravelTo\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = A:\.Net Dev Course Brova\Asp\TravelTo
+build_property.MSBuildProjectDirectory = A:\.Net Dev Course Brova\Asp\TravelTo\TravelTo
 build_property._RazorSourceGeneratorDebug = 
 
-[A:/.Net Dev Course Brova/Asp/TravelTo/Areas/Admin/Views/CheckoutTourUsers/Index.cshtml]
+[A:/.Net Dev Course Brova/Asp/TravelTo/TravelTo/Areas/Admin/Views/CheckoutTourUsers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2hlY2tvdXRUb3VyVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/.Net Dev Course Brova/Asp/TravelTo/Areas/Admin/Views/Competitions/Create.cshtml]
+[A:/.Net Dev Course Brova/Asp/TravelTo/TravelTo/Areas/Admin/Views/Competitions/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tcGV0aXRpb25zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/.Net Dev Course Brova/Asp/TravelTo/Areas/Admin/Views/Competitions/Edit.cshtml]
+[A:/.Net Dev Course Brova/Asp/TravelTo/TravelTo/Areas/Admin/Views/Competitions/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tcGV0aXRpb25zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/.Net Dev Course Brova/Asp/TravelTo/Areas/Admin/Views/Competitions/Index.cshtml]
+[A:/.Net Dev Course Brova/Asp/TravelTo/TravelTo/Areas/Admin/Views/Competitions/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tcGV0aXRpb25zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/.Net Dev Course Brova/Asp/TravelTo/Areas/Admin/Views/Home/Index.cshtml]
+[A:/.Net Dev Course Brova/Asp/TravelTo/TravelTo/Areas/Admin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/.Net Dev Course Brova/Asp/TravelTo/Areas/Admin/Views/LocationTours/Create.cshtml]
+[A:/.Net Dev Course Brova/Asp/TravelTo/TravelTo/Areas/Admin/Views/LocationTours/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTG9jYXRpb25Ub3Vyc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/.Net Dev Course Brova/Asp/TravelTo/Areas/Admin/Views/LocationTours/Edit.cshtml]
+[A:/.Net Dev Course Brova/Asp/TravelTo/TravelTo/Areas/Admin/Views/LocationTours/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTG9jYXRpb25Ub3Vyc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/.Net Dev Course Brova/Asp/TravelTo/Areas/Admin/Views/LocationTours/Index.cshtml]
+[A:/.Net Dev Course Brova/Asp/TravelTo/TravelTo/Areas/Admin/Views/LocationTours/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTG9jYXRpb25Ub3Vyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/.Net Dev Course Brova/Asp/TravelTo/Areas/Admin/Views/Settings/Create.cshtml]
+[A:/.Net Dev Course Brova/Asp/TravelTo/TravelTo/Areas/Admin/Views/Settings/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2V0dGluZ3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/.Net Dev Course Brova/Asp/TravelTo/Areas/Admin/Views/Settings/Edit.cshtml]
+[A:/.Net Dev Course Brova/Asp/TravelTo/TravelTo/Areas/Admin/Views/Settings/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2V0dGluZ3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/.Net Dev Course Brova/Asp/TravelTo/Areas/Admin/Views/Settings/Index.cshtml]
+[A:/.Net Dev Course Brova/Asp/TravelTo/TravelTo/Areas/Admin/Views/Settings/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2V0dGluZ3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/.Net Dev Course Brova/Asp/TravelTo/Areas/Admin/Views/Sliders/Create.cshtml]
+[A:/.Net Dev Course Brova/Asp/TravelTo/TravelTo/Areas/Admin/Views/Sliders/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2xpZGVyc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/.Net Dev Course Brova/Asp/TravelTo/Areas/Admin/Views/Sliders/Edit.cshtml]
+[A:/.Net Dev Course Brova/Asp/TravelTo/TravelTo/Areas/Admin/Views/Sliders/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2xpZGVyc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/.Net Dev Course Brova/Asp/TravelTo/Areas/Admin/Views/Sliders/Index.cshtml]
+[A:/.Net Dev Course Brova/Asp/TravelTo/TravelTo/Areas/Admin/Views/Sliders/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2xpZGVyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/.Net Dev Course Brova/Asp/TravelTo/Areas/Admin/Views/Tours/Create.cshtml]
+[A:/.Net Dev Course Brova/Asp/TravelTo/TravelTo/Areas/Admin/Views/Tours/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVG91cnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/.Net Dev Course Brova/Asp/TravelTo/Areas/Admin/Views/Tours/Edit.cshtml]
+[A:/.Net Dev Course Brova/Asp/TravelTo/TravelTo/Areas/Admin/Views/Tours/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVG91cnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/.Net Dev Course Brova/Asp/TravelTo/Areas/Admin/Views/Tours/Index.cshtml]
+[A:/.Net Dev Course Brova/Asp/TravelTo/TravelTo/Areas/Admin/Views/Tours/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVG91cnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/.Net Dev Course Brova/Asp/TravelTo/Areas/Admin/Views/_ViewImports.cshtml]
+[A:/.Net Dev Course Brova/Asp/TravelTo/TravelTo/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/.Net Dev Course Brova/Asp/TravelTo/Areas/Admin/Views/_ViewStart.cshtml]
+[A:/.Net Dev Course Brova/Asp/TravelTo/TravelTo/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/.Net Dev Course Brova/Asp/TravelTo/Views/CheckoutTourUsers/Create.cshtml]
+[A:/.Net Dev Course Brova/Asp/TravelTo/TravelTo/Views/CheckoutTourUsers/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRUb3VyVXNlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/.Net Dev Course Brova/Asp/TravelTo/Views/CheckoutTourUsers/Edit.cshtml]
+[A:/.Net Dev Course Brova/Asp/TravelTo/TravelTo/Views/CheckoutTourUsers/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRUb3VyVXNlcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/.Net Dev Course Brova/Asp/TravelTo/Views/CheckoutTourUsers/Index.cshtml]
+[A:/.Net Dev Course Brova/Asp/TravelTo/TravelTo/Views/CheckoutTourUsers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRUb3VyVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/.Net Dev Course Brova/Asp/TravelTo/Views/Home/Index.cshtml]
+[A:/.Net Dev Course Brova/Asp/TravelTo/TravelTo/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/.Net Dev Course Brova/Asp/TravelTo/Views/Home/Privacy.cshtml]
+[A:/.Net Dev Course Brova/Asp/TravelTo/TravelTo/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/.Net Dev Course Brova/Asp/TravelTo/Views/Shared/Components/Fotter/Default.cshtml]
+[A:/.Net Dev Course Brova/Asp/TravelTo/TravelTo/Views/Shared/Components/Fotter/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRm90dGVyXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/.Net Dev Course Brova/Asp/TravelTo/Views/Shared/Components/Heder/Default.cshtml]
+[A:/.Net Dev Course Brova/Asp/TravelTo/TravelTo/Views/Shared/Components/Heder/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcSGVkZXJcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/.Net Dev Course Brova/Asp/TravelTo/Views/Shared/Error.cshtml]
+[A:/.Net Dev Course Brova/Asp/TravelTo/TravelTo/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/.Net Dev Course Brova/Asp/TravelTo/Views/Shared/_fotter.cshtml]
+[A:/.Net Dev Course Brova/Asp/TravelTo/TravelTo/Views/Shared/_fotter.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9mb3R0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/.Net Dev Course Brova/Asp/TravelTo/Views/Shared/_header.cshtml]
+[A:/.Net Dev Course Brova/Asp/TravelTo/TravelTo/Views/Shared/_header.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9oZWFkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/.Net Dev Course Brova/Asp/TravelTo/Views/Shared/_ValidationScriptsPartial.cshtml]
+[A:/.Net Dev Course Brova/Asp/TravelTo/TravelTo/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/.Net Dev Course Brova/Asp/TravelTo/Views/Tours/Details.cshtml]
+[A:/.Net Dev Course Brova/Asp/TravelTo/TravelTo/Views/Tours/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91cnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/.Net Dev Course Brova/Asp/TravelTo/Views/Tours/Index.cshtml]
+[A:/.Net Dev Course Brova/Asp/TravelTo/TravelTo/Views/Tours/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91cnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/.Net Dev Course Brova/Asp/TravelTo/Views/Tours/Privacy.cshtml]
+[A:/.Net Dev Course Brova/Asp/TravelTo/TravelTo/Views/Tours/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91cnNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/.Net Dev Course Brova/Asp/TravelTo/Views/_ViewImports.cshtml]
+[A:/.Net Dev Course Brova/Asp/TravelTo/TravelTo/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/.Net Dev Course Brova/Asp/TravelTo/Views/_ViewStart.cshtml]
+[A:/.Net Dev Course Brova/Asp/TravelTo/TravelTo/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/.Net Dev Course Brova/Asp/TravelTo/Areas/Admin/Views/Shared/_Layout.cshtml]
+[A:/.Net Dev Course Brova/Asp/TravelTo/TravelTo/Areas/Admin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-3tzbs1dws1
 
-[A:/.Net Dev Course Brova/Asp/TravelTo/Views/Shared/_Layout.cshtml]
+[A:/.Net Dev Course Brova/Asp/TravelTo/TravelTo/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-lw0aavegri

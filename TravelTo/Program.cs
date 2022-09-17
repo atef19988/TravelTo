@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using TravelTo.Core.InterFaces;
@@ -20,6 +21,15 @@ builder.Services.AddScoped<IRepository<TbCompetitionUser>, BaseRepository<TbComp
 builder.Services.AddScoped<IRepository<TbLocationTour>, BaseRepository<TbLocationTour>>();
 builder.Services.AddScoped<IRepository<TbSettings>, BaseRepository<TbSettings>>();
 builder.Services.AddScoped<IRepository<TbSlider>, BaseRepository<TbSlider>>();
+builder.Services.AddIdentity<IdentityUser, IdentityRole>(option =>
+{
+    option.Password.RequiredLength = 10;
+    option.Password.RequireNonAlphanumeric = false;
+    option.Password.RequireUppercase=false;
+    option.Password.RequireDigit = false;
+    option.User.RequireUniqueEmail = true;
+    
+}).AddEntityFrameworkStores<TrvelToDbContext>();
 
 var app = builder.Build();
 
@@ -33,7 +43,8 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
+app.UseAuthentication();
+app.UseAuthorization();
 app.UseRouting();
 
 app.UseAuthorization();

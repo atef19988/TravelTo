@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "A:\\.Net Dev Course Brova\\Asp\\TravelTo\\TravelTo.csproj": {}
+    "A:\\.Net Dev Course Brova\\Asp\\TravelTo\\TravelTo\\TravelTo.csproj": {}
   },
   "projects": {
-    "A:\\.Net Dev Course Brova\\Asp\\TravelTo.Core\\TravelTo.Core.csproj": {
+    "A:\\.Net Dev Course Brova\\Asp\\TravelTo\\TravelTo.Core\\TravelTo.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\.Net Dev Course Brova\\Asp\\TravelTo.Core\\TravelTo.Core.csproj",
+        "projectUniqueName": "A:\\.Net Dev Course Brova\\Asp\\TravelTo\\TravelTo.Core\\TravelTo.Core.csproj",
         "projectName": "TravelTo.Core",
-        "projectPath": "A:\\.Net Dev Course Brova\\Asp\\TravelTo.Core\\TravelTo.Core.csproj",
+        "projectPath": "A:\\.Net Dev Course Brova\\Asp\\TravelTo\\TravelTo.Core\\TravelTo.Core.csproj",
         "packagesPath": "C:\\Users\\Atef Almasry\\.nuget\\packages\\",
-        "outputPath": "A:\\.Net Dev Course Brova\\Asp\\TravelTo.Core\\obj\\",
+        "outputPath": "A:\\.Net Dev Course Brova\\Asp\\TravelTo\\TravelTo.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.1\\.NET Core Desktop Libraries\\Offline Packages",
@@ -71,14 +71,14 @@
         }
       }
     },
-    "A:\\.Net Dev Course Brova\\Asp\\TravelTo.Domain\\TravelTo.Domain.csproj": {
+    "A:\\.Net Dev Course Brova\\Asp\\TravelTo\\TravelTo.Domain\\TravelTo.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\.Net Dev Course Brova\\Asp\\TravelTo.Domain\\TravelTo.Domain.csproj",
+        "projectUniqueName": "A:\\.Net Dev Course Brova\\Asp\\TravelTo\\TravelTo.Domain\\TravelTo.Domain.csproj",
         "projectName": "TravelTo.Domain",
-        "projectPath": "A:\\.Net Dev Course Brova\\Asp\\TravelTo.Domain\\TravelTo.Domain.csproj",
+        "projectPath": "A:\\.Net Dev Course Brova\\Asp\\TravelTo\\TravelTo.Domain\\TravelTo.Domain.csproj",
         "packagesPath": "C:\\Users\\Atef Almasry\\.nuget\\packages\\",
-        "outputPath": "A:\\.Net Dev Course Brova\\Asp\\TravelTo.Domain\\obj\\",
+        "outputPath": "A:\\.Net Dev Course Brova\\Asp\\TravelTo\\TravelTo.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.1\\.NET Core Desktop Libraries\\Offline Packages",
@@ -144,14 +144,14 @@
         }
       }
     },
-    "A:\\.Net Dev Course Brova\\Asp\\TravelTo.Ef\\TravelTo.Ef.csproj": {
+    "A:\\.Net Dev Course Brova\\Asp\\TravelTo\\TravelTo.Ef\\TravelTo.Ef.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\.Net Dev Course Brova\\Asp\\TravelTo.Ef\\TravelTo.Ef.csproj",
+        "projectUniqueName": "A:\\.Net Dev Course Brova\\Asp\\TravelTo\\TravelTo.Ef\\TravelTo.Ef.csproj",
         "projectName": "TravelTo.Ef",
-        "projectPath": "A:\\.Net Dev Course Brova\\Asp\\TravelTo.Ef\\TravelTo.Ef.csproj",
+        "projectPath": "A:\\.Net Dev Course Brova\\Asp\\TravelTo\\TravelTo.Ef\\TravelTo.Ef.csproj",
         "packagesPath": "C:\\Users\\Atef Almasry\\.nuget\\packages\\",
-        "outputPath": "A:\\.Net Dev Course Brova\\Asp\\TravelTo.Ef\\obj\\",
+        "outputPath": "A:\\.Net Dev Course Brova\\Asp\\TravelTo\\TravelTo.Ef\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.1\\.NET Core Desktop Libraries\\Offline Packages",
@@ -180,11 +180,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "A:\\.Net Dev Course Brova\\Asp\\TravelTo.Core\\TravelTo.Core.csproj": {
-                "projectPath": "A:\\.Net Dev Course Brova\\Asp\\TravelTo.Core\\TravelTo.Core.csproj"
+              "A:\\.Net Dev Course Brova\\Asp\\TravelTo\\TravelTo.Core\\TravelTo.Core.csproj": {
+                "projectPath": "A:\\.Net Dev Course Brova\\Asp\\TravelTo\\TravelTo.Core\\TravelTo.Core.csproj"
               },
-              "A:\\.Net Dev Course Brova\\Asp\\TravelTo.Domain\\TravelTo.Domain.csproj": {
-                "projectPath": "A:\\.Net Dev Course Brova\\Asp\\TravelTo.Domain\\TravelTo.Domain.csproj"
+              "A:\\.Net Dev Course Brova\\Asp\\TravelTo\\TravelTo.Domain\\TravelTo.Domain.csproj": {
+                "projectPath": "A:\\.Net Dev Course Brova\\Asp\\TravelTo\\TravelTo.Domain\\TravelTo.Domain.csproj"
               }
             }
           }
@@ -199,6 +199,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.9, )"
@@ -230,14 +234,14 @@
         }
       }
     },
-    "A:\\.Net Dev Course Brova\\Asp\\TravelTo\\TravelTo.csproj": {
+    "A:\\.Net Dev Course Brova\\Asp\\TravelTo\\TravelTo\\TravelTo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\.Net Dev Course Brova\\Asp\\TravelTo\\TravelTo.csproj",
+        "projectUniqueName": "A:\\.Net Dev Course Brova\\Asp\\TravelTo\\TravelTo\\TravelTo.csproj",
         "projectName": "TravelTo",
-        "projectPath": "A:\\.Net Dev Course Brova\\Asp\\TravelTo\\TravelTo.csproj",
+        "projectPath": "A:\\.Net Dev Course Brova\\Asp\\TravelTo\\TravelTo\\TravelTo.csproj",
         "packagesPath": "C:\\Users\\Atef Almasry\\.nuget\\packages\\",
-        "outputPath": "A:\\.Net Dev Course Brova\\Asp\\TravelTo\\obj\\",
+        "outputPath": "A:\\.Net Dev Course Brova\\Asp\\TravelTo\\TravelTo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.1\\.NET Core Desktop Libraries\\Offline Packages",
@@ -266,8 +270,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "A:\\.Net Dev Course Brova\\Asp\\TravelTo.Ef\\TravelTo.Ef.csproj": {
-                "projectPath": "A:\\.Net Dev Course Brova\\Asp\\TravelTo.Ef\\TravelTo.Ef.csproj"
+              "A:\\.Net Dev Course Brova\\Asp\\TravelTo\\TravelTo.Ef\\TravelTo.Ef.csproj": {
+                "projectPath": "A:\\.Net Dev Course Brova\\Asp\\TravelTo\\TravelTo.Ef\\TravelTo.Ef.csproj"
               }
             }
           }
@@ -282,6 +286,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
