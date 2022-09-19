@@ -1,0 +1,35 @@
+﻿@model SigninModel
+
+<div class="row">
+
+    <div class="col-md-6  text-left" style="font-size:medium">
+        <h3> CheckoutTourUser</h3>
+        <div class="card">
+            <div class="card-body">
+
+
+                <form class="forms-sample" asp-action="Login" asp-controller="User" enctype="multipart/form-data" method="post">
+
+
+ 
+
+                    <div class="form-group">
+                        <label for="exampleInputUsername1">Email</label>
+                        <input asp-for="Email" type="email" class="form-control" id="exampleInputUsername1" placeholder="Email">
+                        <span asp-validation-for="Email"> </span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleInputUsername1">password</label>
+                        <input asp-for="Pass" type="password" class="form-control" id="exampleInputMobile" placeholder="password">
+                        <span asp-validation-for="Pass"> </span>
+                    </div>
+
+                    
+                    <button type="submit" class="btn btn-gradient-primary me-2">Login</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

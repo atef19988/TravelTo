@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +10,7 @@ using TravelTo.Domain.Models;
 
 namespace TravelTo.Ef.Data
 {
-    public class TrvelToDbContext : DbContext
+    public class TrvelToDbContext : IdentityDbContext<AppUserIdentity>
     {
 
         public TrvelToDbContext(DbContextOptions<TrvelToDbContext> options) : base(options)

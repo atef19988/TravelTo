@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q33M3mbGeH/xoa2PFyMHi6QdPBudrrecSkXXXKeDwOW0Gf+dFeZPKDPmJcZLfxmb3kLGEgStnTVKus2fakk0oQ==",
+  "dgSpecHash": "7uDAaPTZNkH3y/5edsARlkNrti3u6JEJxoBX9UGGEWx+FMP8Zk81juC+NvqFQbmSJhtk/AXiHvrluvDDytH+6Q==",
   "success": true,
-  "projectFilePath": "A:\\.Net Dev Course Brova\\Asp\\TravelTo.Domain\\TravelTo.Domain.csproj",
+  "projectFilePath": "A:\\.Net Dev Course Brova\\Asp\\TravelTo\\TravelTo.Domain\\TravelTo.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Atef Almasry\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Atef Almasry\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",

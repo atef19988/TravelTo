@@ -8,11 +8,11 @@ namespace TravelTo.Models
         {
             Sliders = new List<TbSlider>();
             Tours = new List<TbTour>();
-      
+            UserModel = new RegisterModel();
         }
         public List<TbSlider> Sliders { get; set; } 
         public List<TbTour> Tours { get; set; }
-
+        public RegisterModel UserModel { get; set; }
         public TbSettings Settings { get; set; }
 
     }

@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Data;
 using System.Security.Cryptography.Xml;
 using TravelTo.Core.InterFaces;
 using TravelTo.Domain.Models;
@@ -7,6 +9,8 @@ using TravelTo.Domain.Models;
 namespace TravelTo.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
+
     public class CheckoutTourUsersController : Controller
     {
 

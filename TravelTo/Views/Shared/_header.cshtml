@@ -1,4 +1,4 @@
-﻿@model TbSettings
+﻿@model HedarModel
 <header class="section page-header">
     <!-- RD Navbar-->
     <div class="rd-navbar-wrap">
@@ -12,7 +12,7 @@
                         <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                         <!-- RD Navbar Brand-->
                         <div class="rd-navbar-brand">
-                            <!--Brand--><a class="brand" href="index.html"><img src="~/Admin/Uploads/@Model.Logo" style="width:75px;height:75px" alt="" width="225" height="18" /></a>
+                            <!--Brand--><a class="brand" href="index.html"><img src="~/Admin/Uploads/@Model.TbSettings.Logo" style="width:75px;height:75px" alt="" width="225" height="18" /></a>
                         </div>
                     </div>
                     <div class="rd-navbar-aside-right rd-navbar-collapse">
@@ -21,19 +21,39 @@
                             <li>
                                 <div class="unit unit-spacing-xs">
                                     <div class="unit-left"><span class="icon fa fa-phone"></span></div>
-                                    <div class="unit-body"><a class="link-phone">@Model.Phone</a></div>
+                                    <div class="unit-body"><a class="link-phone">@Model.TbSettings.Phone</a></div>
                                 </div>
                             </li>
                         </ul><a class="button button-md button-default-outline-2 button-ujarak" href="#">Get a Free Tour</a>
                     </div>
                 </div>
             </div>
+           
+        
             <div class="rd-navbar-main-outer">
                 <div class="rd-navbar-main">
                     <div class="rd-navbar-nav-wrap">
                         <ul class="list-inline list-inline-md rd-navbar-corporate-list-social">
-                            <li><a class="icon fa fa-facebook" href="@Model.FaceBookUrl"></a></li>
+                            
+                            @{
+                                if(User.Identity.IsAuthenticated)
+                                {
 
+                                    <img class="rd-nav-link" style="height:50px;width:50px" src="~/Admin/Uploads/@Model.UserModel.ImageName"></img>
+                                        <h5 class="rd-nav-link">@Model.UserModel.FirstName @Model.UserModel.LastName</h5>
+                                            <a class="rd-nav-link" asp-action="Logout" asp-controller="User">Logout</a>
+
+                             }
+                             else
+                             {
+                                        <a class="rd-nav-link" asp-action="Register" asp-controller="User">Register</a>
+                                        <a class="rd-nav-link" asp-action="Login" asp-controller="User">Login</a>
+
+
+                             }
+
+                                     <li><a class="icon fa fa-facebook" href="@Model.TbSettings.FaceBookUrl"></a></li> 
+                        }
                         </ul>
                         <!-- RD Navbar Nav-->
                         <ul class="rd-navbar-nav">
@@ -47,7 +67,9 @@
                         </ul>
                     </div>
                 </div>
-            </div>
+                    </div>
+                    </div>
+ 
         </nav>
     </div>
 </header>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HYGHyLuJJ7/SzlnegIvx9OR9OTM2EkJR0hvP2rK/oUs=",
+  "Hash": "+z3V32v8IwVsMXdkPEQ2extt+jCJjpC3bFebMYjd4rM=",
   "Source": "TravelTo",
   "BasePath": "_content/TravelTo",
   "Mode": "Default",
@@ -9248,6 +9248,23 @@
       "OriginalItemSpec": "wwwroot\\Admin\\Uploads\\9e2e0c7e-0559-467b-bd14-11ab41a30299.jpg"
     },
     {
+      "Identity": "A:\\.Net Dev Course Brova\\Asp\\TravelTo\\TravelTo\\wwwroot\\Admin\\Uploads\\b19aeea2-c59a-487b-bf4b-db11b21b7837.jpg",
+      "SourceId": "TravelTo",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\.Net Dev Course Brova\\Asp\\TravelTo\\TravelTo\\wwwroot\\",
+      "BasePath": "_content/TravelTo",
+      "RelativePath": "Admin/Uploads/b19aeea2-c59a-487b-bf4b-db11b21b7837.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Admin\\Uploads\\b19aeea2-c59a-487b-bf4b-db11b21b7837.jpg"
+    },
+    {
       "Identity": "A:\\.Net Dev Course Brova\\Asp\\TravelTo\\TravelTo\\wwwroot\\Admin\\Uploads\\b4e6c29b-9820-4b34-bb35-319d04ae0d62.jpg",
       "SourceId": "TravelTo",
       "SourceType": "Discovered",
@@ -9314,6 +9331,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Admin\\Uploads\\c75a8570-e0a7-4416-a95d-93aacb04a8fb.jpg"
+    },
+    {
+      "Identity": "A:\\.Net Dev Course Brova\\Asp\\TravelTo\\TravelTo\\wwwroot\\Admin\\Uploads\\d0ffa87f-8602-4355-9ef4-e17f974530cc.jpg",
+      "SourceId": "TravelTo",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\.Net Dev Course Brova\\Asp\\TravelTo\\TravelTo\\wwwroot\\",
+      "BasePath": "_content/TravelTo",
+      "RelativePath": "Admin/Uploads/d0ffa87f-8602-4355-9ef4-e17f974530cc.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Admin\\Uploads\\d0ffa87f-8602-4355-9ef4-e17f974530cc.jpg"
     },
     {
       "Identity": "A:\\.Net Dev Course Brova\\Asp\\TravelTo\\TravelTo\\wwwroot\\Admin\\Uploads\\d39c23e8-4214-41cb-b2da-c9ded5736e1f.jpg",

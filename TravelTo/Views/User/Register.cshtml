@@ -1,0 +1,48 @@
+﻿@model RegisterModel
+
+<div class="row">
+
+    <div class="col-md-6  text-left" style="font-size:medium">
+        <h3> CheckoutTourUser</h3>
+        <div class="card">
+            <div class="card-body">
+
+
+                <form class="forms-sample" asp-action="Register" asp-controller="User" enctype="multipart/form-data" method="post">
+
+
+
+                
+                    <div class="form-group">
+                        <label for="exampleInputUsername1">FirstName</label>
+                        <input asp-for="FirstName" type="text" class="form-control" id="exampleInputUsername1" placeholder="FirstName">
+                        <span asp-validation-for="FirstName"> </span>
+                    </div>
+
+                        <div class="form-group">
+                        <label for="exampleInputUsername1">LastName</label>
+                        <input asp-for="LastName" type="text" class="form-control" id="exampleInputUsername1" placeholder="LastName">
+                        <span asp-validation-for="LastName"> </span>
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleInputUsername1">Email</label>
+                        <input asp-for="Email" type="email" class="form-control" id="exampleInputUsername1" placeholder="Email">
+                        <span asp-validation-for="Email"> </span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleInputUsername1">password</label>
+                        <input asp-for="Pass" type="password" class="form-control" id="exampleInputMobile" placeholder="password">
+                        <span asp-validation-for="Pass"> </span>
+                    </div>
+
+                    
+                    <button type="submit" class="btn btn-gradient-primary me-2">Register</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

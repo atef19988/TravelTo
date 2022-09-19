@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "A:\\.Net Dev Course Brova\\Asp\\TravelTo.Domain\\TravelTo.Domain.csproj": {}
+    "A:\\.Net Dev Course Brova\\Asp\\TravelTo\\TravelTo.Domain\\TravelTo.Domain.csproj": {}
   },
   "projects": {
-    "A:\\.Net Dev Course Brova\\Asp\\TravelTo.Domain\\TravelTo.Domain.csproj": {
+    "A:\\.Net Dev Course Brova\\Asp\\TravelTo\\TravelTo.Domain\\TravelTo.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\.Net Dev Course Brova\\Asp\\TravelTo.Domain\\TravelTo.Domain.csproj",
+        "projectUniqueName": "A:\\.Net Dev Course Brova\\Asp\\TravelTo\\TravelTo.Domain\\TravelTo.Domain.csproj",
         "projectName": "TravelTo.Domain",
-        "projectPath": "A:\\.Net Dev Course Brova\\Asp\\TravelTo.Domain\\TravelTo.Domain.csproj",
+        "projectPath": "A:\\.Net Dev Course Brova\\Asp\\TravelTo\\TravelTo.Domain\\TravelTo.Domain.csproj",
         "packagesPath": "C:\\Users\\Atef Almasry\\.nuget\\packages\\",
-        "outputPath": "A:\\.Net Dev Course Brova\\Asp\\TravelTo.Domain\\obj\\",
+        "outputPath": "A:\\.Net Dev Course Brova\\Asp\\TravelTo\\TravelTo.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.1\\.NET Core Desktop Libraries\\Offline Packages",
