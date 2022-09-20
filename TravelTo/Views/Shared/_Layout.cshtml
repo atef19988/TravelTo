@@ -1,28 +1,4 @@
-﻿
-@inject ModelHome model
-@inject SignInManager<AppUserIdentity> _signInManager
-
-@{
-    AppUserIdentity user=new AppUserIdentity();
-    try
-    {
-        if (User.Identity.Name != null)
-        {
-
-            user = await _signInManager.UserManager.FindByEmailAsync(User.Identity.Name);
-        }
-        if (user.Email != null)
-        {
-
-            Model.UserModel.FirstName = user.FirstName;
-            Model.UserModel.LastName = user.LastName;
-            Model.UserModel.Email = user.Email;
-            model.UserModel.ImageName = user.ImageName;
-        }
-    }catch(Exception){
-
-    }
-}
+﻿ 
 
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">

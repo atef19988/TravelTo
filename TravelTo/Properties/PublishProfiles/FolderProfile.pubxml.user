@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>A:\.Net Dev Course Brova\Asp\TravelTo\TravelTo\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2022-09-20T08:45:02.5775213Z;False|2022-09-19T20:35:30.1546843+02:00;True|2022-09-19T20:29:36.7654914+02:00;True|2022-09-19T20:23:54.7591879+02:00;True|2022-09-19T20:22:21.1844606+02:00;True|2022-09-19T19:03:29.2331476+02:00;True|2022-09-19T19:01:48.4316361+02:00;True|2022-09-19T14:23:09.8728239+02:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

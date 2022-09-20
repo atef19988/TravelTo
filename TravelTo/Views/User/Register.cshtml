@@ -3,7 +3,7 @@
 <div class="row">
 
     <div class="col-md-6  text-left" style="font-size:medium">
-        <h3> CheckoutTourUser</h3>
+        <h3> Register </h3>
         <div class="card">
             <div class="card-body">
 
@@ -37,7 +37,10 @@
                         <input asp-for="Pass" type="password" class="form-control" id="exampleInputMobile" placeholder="password">
                         <span asp-validation-for="Pass"> </span>
                     </div>
-
+                    <div class="form-group">
+                        <label for="exampleInputEmail1"> Image </label>
+                        <input name="files" type="file" class="form-control" placeholder="File">
+                    </div>
                     
                     <button type="submit" class="btn btn-gradient-primary me-2">Register</button>
 

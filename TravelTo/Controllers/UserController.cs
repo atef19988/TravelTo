@@ -49,7 +49,7 @@ namespace TravelTo.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Register(RegisterModel user)
+        public async Task<IActionResult> Register(RegisterModel user, List<IFormFile> files)
         {
             if (!ModelState.IsValid)
                 return View(user);
@@ -60,6 +60,7 @@ namespace TravelTo.Controllers
                 _appUserIdentity.LastName = user.LastName;
                 _appUserIdentity.FirstName = user.FirstName;
                 _appUserIdentity.UserName= user.Email;
+                _appUserIdentity.ImageName = HelperMethod.UploadFileName(files, @"Admin\Uploads", ".jpg"); ;
             }
 
             var result = await _userManager.CreateAsync(_appUserIdentity,user.Pass);
